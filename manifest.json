@@ -1,0 +1,11 @@
+{
+  // necessary fields
+  "name": "First Extension",
+  "description": "Shows a Menu item",
+  "version": "0.0.1",
+  "permissions": ["contextMenus", "activeTab"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}
